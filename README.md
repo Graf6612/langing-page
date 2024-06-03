@@ -1,6 +1,3 @@
-Sure, here is an improved version of your README with enhanced formatting and clarity:
-
----
 
 # Modern Responsive Web Page
 
@@ -26,12 +23,3 @@ You can view the landing page [here](https://graf6612.github.io/langing-page/).
 ## Design
 
 You can view the Figma design [here](https://www.figma.com/design/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?node-id=6802-139).
-
----
-
-## Repo 
-
-You can view the my Repo [here] https://github.com/Graf6612/langing-page?tab=readme-ov-file
-
-
-This version provides a clear, concise, and well-organized description of your project. It uses markdown features such as headings, bullet points, and links to enhance readability and structure.
