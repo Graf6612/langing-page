@@ -34,6 +34,7 @@ Any modern web browser
 ## Running the Project Locally:
 1.Clone the repository:
 git clone https://(https://github.com/Graf6612/langing-page.git)
+
 2.Navigate to the project directory.
 
 3.Next, you need to update the repository:
