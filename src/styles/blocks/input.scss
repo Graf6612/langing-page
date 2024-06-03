@@ -38,6 +38,7 @@
   }
   &__text {
     width: max-content;
+    
     @include on-dekstop {
       grid-column: 7 / 9;
     }

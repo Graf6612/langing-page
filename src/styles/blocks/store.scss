@@ -1,45 +1,28 @@
-.store {
-  &__wrapper {
-    display: grid;
-    row-gap: 40px;
-
-    @include on-tablet {
-      row-gap: 64px;
-    }
-  }
-
-  &__titles {
-    font-size: 48px;
-    line-height: 48px
-  }
-}
-
 .stores {
   &__photos {
     @include page-grid;
   }
 
   &__link {
-   &--wide {
-    @include on-tablet {
-    grid-column:span 4 ;
+    &--wide {
+      @include on-tablet {
+        grid-column: span 4;
+      }
+
+      @include on-dekstop {
+        grid-column: span 8;
+      }
     }
 
-    @include on-dekstop {
-    grid-column:span 8;
-    }
+    &--square {
+      @include on-tablet {
+        grid-column: span 2;
+      }
 
-   }
-
-   &--square {
-    @include on-tablet {
-      grid-column: span 2;
+      @include on-dekstop {
+        grid-column: span 4;
+      }
     }
-
-    @include on-dekstop {
-     grid-column: span 4;
-    }
-   }
   }
 
   &__photo {
@@ -47,7 +30,14 @@
     height: 100%;
     object-fit: cover;
     margin-bottom: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
   }
+
   &__title {
     text-align: left;
     margin: 0;

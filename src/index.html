@@ -222,20 +222,21 @@
           <section class="contacts" id="login">
             <h2 class="contacts__texts">Contact us</h2>
             <div class="contacts__input">
-              <form class="contacts__input" action="#">
+              <form id="contactForm" class="contacts__input"
+                action="#">
                 <input type="text" class="contacts__input-sett"
-                  placeholder="Name">
+                  placeholder="Ім'я">
                 <input type="email" class="contacts__input-sett"
                   placeholder="Email">
                 <textarea
-                  placeholder="Message"
+                  placeholder="message"
                   class="contacts__input-sett"
                   name="message"
                   id="message"
                   rows="4"
                   cols="50"
-              ></textarea>
-                <button class="contacts__send">Send</button>
+                ></textarea>
+                <button type="submit" class="contacts__send">Send</button>
               </form>
             </div>
             <div class="contacts__text">
@@ -251,5 +252,10 @@
       </div>
     </main>
     <footer class="footer"></footer>
+    <script>
+      document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+      });
+    </script>
   </body>
 </html>
