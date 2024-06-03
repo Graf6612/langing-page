@@ -21,7 +21,7 @@ This project is a visually appealing and responsive web page created using HTML 
 
 ## Project Showcase
 
-You can view the landing page [here](https://graf6612.github.io/layout_landing-page/).
+You can view the landing page [here](https://graf6612.github.io/langing-page/).
 
 ## Design
 
