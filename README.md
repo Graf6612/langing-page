@@ -33,13 +33,16 @@ Any modern web browser
 
 ## Running the Project Locally:
 1.Clone the repository:
-git clone https://your-repository-url
+git clone https://(https://github.com/Graf6612/langing-page.git)
 2.Navigate to the project directory.
 
-3.Make sure you have Node.js version 14 or newer installed. Install dependencies if there are any:
+3.Next, you need to update the repository:
+git pull origin master
+
+4.Make sure you have Node.js version 14 or newer installed. Install dependencies if there are any:
 npm install
 
-4.Start the project:
+5.Start the project:
 npm start
 
-5.After starting the server, open a web browser and go to http://localhost:8080 (or whichever address your server provides).
+6.After starting the server, open a web browser and go to http://localhost:8080 (or whichever address your server provides).
