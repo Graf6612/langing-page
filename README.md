@@ -23,3 +23,23 @@ You can view the landing page [here](https://graf6612.github.io/langing-page/).
 ## Design
 
 You can view the Figma design [here](https://www.figma.com/design/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?node-id=6802-139).
+
+
+## How to start project locally:
+
+Requirements:
+Node.js (version 14 or newer)
+Any modern web browser
+
+## Running the Project Locally:
+1.Clone the repository:
+git clone https://your-repository-url
+2.Navigate to the project directory.
+
+3.Make sure you have Node.js version 14 or newer installed. Install dependencies if there are any:
+npm install
+
+4.Start the project:
+npm start
+
+5.After starting the server, open a web browser and go to http://localhost:8080 (or whichever address your server provides).
