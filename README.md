@@ -44,6 +44,6 @@ git pull origin master
 npm install
 
 5.Start the project:
-npm start
+`npm start`
 
 6.After starting the server, open a web browser and go to http://localhost:8080 (or whichever address your server provides).
